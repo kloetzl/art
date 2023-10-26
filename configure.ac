@@ -3,7 +3,7 @@ AC_PREREQ([2.69])
 #AC_PREREQ([2.63])
 AC_CONFIG_SRCDIR([config.h.in])
 AC_CONFIG_HEADERS([config.h])
-AM_INIT_AUTOMAKE([subdir-objects])
+AM_INIT_AUTOMAKE([subdir-objects foreign])
 AC_PROG_CXX
 AC_PROG_CC
 # Checks for libraries.
