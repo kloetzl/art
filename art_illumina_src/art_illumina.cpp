@@ -760,7 +760,7 @@ int main(int argc, char* argv[]){
 		       	aln_read=a_read.seq_read;
 	       	}
 		if (!no_ALN) {
-		       	ALNFILE<<">"<<id<<"\t"<<read_id<<"-1\t"<<a_read.bpos;
+		       	ALNFILE<<">"<<id<<"\t"<<read_id<<"\t"<<a_read.bpos;
 		       	if(a_read.is_plus_strand) ALNFILE<<"\t+\n";
 		       	else ALNFILE<<"\t-\n";
 		       	ALNFILE<<aln_ref<<endl<<aln_read<<endl;
